@@ -68,5 +68,3 @@ elif [[ -f $1 ]]
 else 
   generaovalo
 fi
-
-generacirculo
