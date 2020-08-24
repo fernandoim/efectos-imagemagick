@@ -64,6 +64,7 @@ if [ "$1" == "-h" ] || [ "$1" == "ayuda" ]
 then
   muestraayuda
 elif [[ -f $1 ]]
+then
   generaovalo $1
 else 
   generaovalo
